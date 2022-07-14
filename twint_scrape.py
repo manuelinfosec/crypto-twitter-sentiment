@@ -1,6 +1,7 @@
+import datetime
+import random
 import twint
 from twint import run
-import datetime
 
 def scrape(start, finish, keyword, file_start = '', off_by = 0):
     ''' Given a start/finish datetime instance and keyword(s) to scrape for,
@@ -11,7 +12,7 @@ def scrape(start, finish, keyword, file_start = '', off_by = 0):
     c.Pandas = True
     # c.Hide_output = True
     # c.Retries_count = 100
-    # c.Count = True #To ensure running
+    c.Count = True # To ensure running
 
     # Filename equals start time if this is first time scraping
     if file_start == '':
@@ -39,8 +40,7 @@ def scrape(start, finish, keyword, file_start = '', off_by = 0):
         print("currently at", start_new, "to", incr_new)
         c.Since = start_new
         c.Until = incr_new
-        print(c.Since)
-        print(c.Until)
+        print(c.Since + " -> "+ c.Until)
         twint.run.Search(c)
         # Store tweets in a variable, keep track of number of tweets
         tweets = twint.storage.panda.Tweets_df
@@ -84,7 +84,3 @@ def scrape(start, finish, keyword, file_start = '', off_by = 0):
     file.close
     
     return True
-
-# Sources/Libraries
-''' https://docs.python.org/3/library/datetime.html#examples-of-usage-timedelta
-https://github.com/twintproject/twint '''
