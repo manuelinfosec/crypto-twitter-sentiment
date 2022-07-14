@@ -1,3 +1,4 @@
+import random
 import datetime
 import twint_scrape
 from twint_scrape import scrape
