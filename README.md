@@ -11,3 +11,12 @@ While asset-backed stocks are easier to predict given market data, these predict
 
 ## Disclaimer
 There are risks associated with trading, especially in the volatile crypto market. I do not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and risk what you can afford to lose. All contents in this repository and beyond are solely for educational purposes.
+
+## Scraping & Data
+The greatest limitation in this project is access to the data. Twitter does not provide an exhaustive search feature or counts endpoint in their non-enterprise API. As a result, I chose to use Twint which acts as a bot, retrieving data from each webpage. The script that was created ran on AWS using cron job's task management to schedule and kill the script by the hour, preventing parallelization which would kill the instance. After roughly 140 hours, the data was scraped for the first 306 days of 2019 and recorded into a text file. The scraped data is depicted below.
+
+<p align="center">
+ <sup>Close Price vs. Tweet Count</sup>
+ </p>
+
+![Close Price vs. Tweet Count](https://i.imgur.com/O0AxsHe.png)
