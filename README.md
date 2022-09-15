@@ -73,6 +73,6 @@ Although the results are promising, there are various areas for improvement that
 
 These are simply ideas that I'd love to test, but the possibility of testing some may be far too difficult. However, this is still a work in progress that I hope to improve. If you have any suggestions or would like to discuss this research, please contact me at manuelinfosec@gmail.com.
 
-You can also find me on [LinkedIn](https://www.linkedin.com/in/manuelinfosec/) 
+You can also find me on [LinkedIn](https://www.linkedin.com/in/manuelinfosec/) or [Twitter](https://twitter.com/manuelinfosec/)
 
 Thank you for reading!!
