@@ -71,8 +71,8 @@ Although the results are promising, there are various areas for improvement that
 * Indications of pump and dumps. The assumption is that stocks, in general, are based on a few main factors: previous pricing, general sentiment, news reports, and larger companies pumping and dumping, which essentially forces the market to behave in a certain way. Contrarily, cryptocurrencies lack the significant impact of news reports on the price. The model has access to previous pricing and general sentiment and thus, an indicator that a market movement is artificial could significantly improve the performance of the model. However, this is most likely far more difficult to predict.
 * Representing the error better, preventing bias from favoring the model. I would love to research a more statistically sound analysis for interpretting the error.
 
-These are simply ideas that I'd love to test, but the possibility of testing some may be far too difficult. However, this is still a work in progress that I hope to improve. If you have any suggestions or would like to discuss this research, please contact me at manuelinfosec@gmail.com.
+These are simply ideas that I'd love to test, but the possibility of testing some may be far too difficult. However, this is still a work in progress that I hope to improve. If you have any suggestions or would like to discuss this research, please contact me at [manuelinfosec[at]gmail[dot]com.](mailto:manuelinfosec@gmail.com)
 
 You can also find me on [LinkedIn](https://www.linkedin.com/in/manuelinfosec/) or [Twitter](https://twitter.com/manuelinfosec/)
 
-Thank you for reading!!
+Thank you for reading. If the repository was helpful to you, leave it a star ;)
